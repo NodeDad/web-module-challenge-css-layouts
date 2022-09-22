@@ -86,10 +86,29 @@ h1 {
     margin: 5px 15px;
 }
 
+.header {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  border: 2px solid lightgray;
+}
+
 .header img {
     width: 100%;
     height: auto;
+    opacity: .4;
+    max-height: 600px;
+}
 
+.center-element {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-element h2 {
+  font-size: 3em;
 }
 
 .navigation {
@@ -107,5 +126,22 @@ h1 {
 
 .navigation a {
     padding: 5px 10px;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-item {
+  border: 2px solid lightgray;
+  height: 300px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
 }
