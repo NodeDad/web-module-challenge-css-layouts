@@ -137,11 +137,26 @@ h1 {
 }
 
 .content-item {
-  border: 2px solid lightgray;
   height: 300px;
   width: 30%;
   display: flex;
   align-items: center;
   align-content: center;
   flex-direction: column;
+}
+
+.content-item-image {
+  border: 2px solid lightgray;
+}
+
+footer {
+  background-color: lightgray;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  height: 40px;
+  margin-top: 30px;
 }
