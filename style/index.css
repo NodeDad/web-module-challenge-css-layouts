@@ -77,7 +77,7 @@ select {
     left: 0px;
 }
 
-align-right {
+.align-right {
     position: absolute;
     right: 0px;
 }
@@ -159,4 +159,38 @@ footer {
 footer button {
   height: 40px;
   margin-top: 30px;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  
+}
+
+@media (max-width: 500px) {
+  .content-item {
+    width: 45%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    width: 100px;
+    text-align: center;
+  }
+  header {
+    text-align: center;
+  }
+  .header h2 {
+    font-size: 2em;
+  }
+  .align-left {
+    position: relative;
+    left: 0px;
+}
 }
